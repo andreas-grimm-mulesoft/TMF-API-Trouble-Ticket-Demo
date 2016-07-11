@@ -1,0 +1,22 @@
+#%RAML 0.8
+title: troubleTicket
+version: 0.1
+baseUri: http://server/api/{version}/ticketManagement
+
+traits: !include traits.yaml
+resourceTypes: !include resource-types.yaml
+
+/troubleTicket:
+  type:
+    troubleTicketColl:
+      troubleTicketCollPostRequest: !include Examples/TroubleTicket/Post.json
+      troubleTicketCollPostResponse: !include Examples/TroubleTicket/201-Post.json
+
+/troubleTicket/{ID}:
+  type:
+    troubleTicketItem:
+      troubleTicketItemGetResponse: !include Examples/TroubleTicket/ID/200-Get.json
+      troubleTicketItemPutRequest: !include Examples/TroubleTicket/ID/Put.json
+      troubleTicketItemPutResponse: !include Examples/TroubleTicket/ID/201-Put.json
+      troubleTicketItemPatchRequest: !include Examples/TroubleTicket/ID/Patch.json
+      troubleTicketItemPatchResponse: !include Examples/TroubleTicket/ID/201-Patch.json

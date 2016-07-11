@@ -1,0 +1,49 @@
+              {
+                "id": "1",
+                "correlationId": "TT53482",
+                "description": "Customer complaint over last invoice.",
+                "severity": "Urgent",
+                "type": "Bills, charges or payment",
+                "creationDate": "2013-07-23T08:16:39.0Z",
+                "targetResolutionDate": "2013-07-30T10:20:01.0Z",
+                "status": "In Progress",
+                "subStatus": "Held",
+                "statusChangeReason": "Waiting for invoicing expert.",
+                "statusChangeDate": "2013-07-24T08:55:12.0Z",
+                "relatedParty": [
+                  {
+                    "href": "/customer/1234",
+                    "role": "Originator"
+                  },
+                  {
+                    "href": "/operator/1234",
+                    "role": "Owner"
+                  },
+                  {
+                    "href": "Roger Collins",
+                    "role": "Reviser"
+                  }
+                ],
+                "relatedObject": [
+                  {
+                    "involvement": "Disputed",
+                    "reference": "/invoice/1234"
+                  },
+                  {
+                    "involvement": "Adjusted",
+                    "reference": "/invoice/5678"
+                  }
+                ],
+                "note": [
+                  {
+                    "date": "2013-07-24T09:55:30.0Z",
+                    "author": "Arthur Evans",
+                    "text": "Already called the expert"
+                  },
+                  {
+                    "date": "2013-07-25T08:55:12.0Z",
+                    "author": "Arthur Evans",
+                    "text": "Informed the originator"
+                  }
+                ]
+              }

@@ -1,0 +1,20 @@
+              {
+                "id": "1",
+                "correlationId": "TT53482",
+                "description": "Customer complaint over last invoice.",
+                "severity": "Urgent",
+                "type": "Bills, charges or payment",
+                "creationDate": "2013-07-23T08:16:39.0Z",
+                "targetResolutionDate": "2013-07-30T10:20:01.0Z",
+                "status": "Created",
+                "subStatus": "",
+                "statusChangeReason": "",
+                "statusChangeDate": "2013-07-24T08:55:12.0Z",
+                "resolutionDate": "",
+                "relatedParty": [
+                ],
+                "relatedObject": [
+                ],
+                "note": [
+                ]
+              }

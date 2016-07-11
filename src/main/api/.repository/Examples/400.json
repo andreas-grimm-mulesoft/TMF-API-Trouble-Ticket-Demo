@@ -1,0 +1,7 @@
+              {
+                "data": {
+                  "message": "(Bad request) if content is invalid (missing required attributes, …)",
+                  },
+                  "success": false,
+                  "status": 400
+              }

@@ -1,0 +1,42 @@
+- troubleTicketColl:
+    description: "The specification is naming this API ticket, not troubleTicket"  
+    post:
+      body:
+        application/json:
+          example: <<troubleTicketCollPostRequest>>
+      responses:
+        201:
+          body:
+            application/json:
+              example: <<troubleTicketCollPostResponse>>
+        400:
+          body:
+            application/json:
+              example: !include Examples/400.json
+
+- troubleTicketItem:
+    get:
+      is: [searchableByFilter, searchableByField]
+      responses:
+        200:
+          body:
+            application/json:
+              example: <<troubleTicketItemGetResponse>>
+    put:
+      body:
+        application/json:
+          example: <<troubleTicketItemPutRequest>>
+      responses:
+        201:
+          body:
+            application/json:
+              example: <<troubleTicketItemPutResponse>>
+    patch:
+      body:
+        application/json:
+          example: <<troubleTicketItemPatchRequest>>
+      responses:
+        201:
+          body:
+            application/json:
+              example: <<troubleTicketItemPatchResponse>>
